@@ -1,0 +1,10 @@
+Jar has its own dictionary in text file dictionary.txt. If need more values in dictionary need to add in file and recompile.
+To recompile, download project and run: mvn clean install
+
+1. For ubuntu, Copy wordChain.jar and wordChain in /usr/bin
+   sudo cp wordChain /usr/bin/
+   sudo cp wordChain.jar /usr/bin/
+
+2. Add executable permissions to both files:
+   sudo chmod a+x /usr/bin/wordChain
+   sudo chmod a+x /usr/bin/wordChain.jar
